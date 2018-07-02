@@ -1,0 +1,72 @@
+@charset "utf-8";
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.naavbar li:hover{
+  padding-left: 15px;
+  background: #ffc107;
+  transition: linear all 0.40s;
+}
+.deconect li:hover{
+  background: red;
+  transition: linear all 0.40s;
+}
+.active a{
+  padding-left: 1px;
+  background: #ffc107;
+}
+.logo{
+  width: 40px;
+  height: 40px;
+}
+.fpage{
+  height: 90%;
+  overflow: scroll;
+  position: absolute;
+}
+.sidemenu{
+  background: #e9ecef;
+  height: 90%;
+  width: 100%;
+  padding: 0px;
+  position: absolute;
+  overflow: scroll;
+}
+.jrpointage:hover{
+  cursor: pointer;
+}
+.sidemenu a{
+  text-decoration: none;
+  padding: 20px;
+  color: black;
+}
+.sidemenu ul li{
+  list-style-type: none;
+  display: block;
+  padding: 15px;
+  border-bottom: 1px solid #ccc;
+}
+.sidemenu ul li:hover{
+  padding-left: 30px;
+  background: white;
+  transition: linear all 0.40s;
+}
+th.rotate {
+  /* Something you can count on */
+
+  white-space: nowrap;
+}
+
+th.rotate > div {
+  transform: 
+    /* Magic Numbers */
+   
+    /* 45 is really 360 - 45 */
+    rotate(315deg);
+width: 7.1px;
+}
+th.rotate > div > span {
+  border-bottom: 1px solid #ccc;
+
+}

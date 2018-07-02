@@ -1,0 +1,5 @@
+user:sonaprojet/U
+pass:projet/PS
+base:XE/BD
+date:auto/DT
+VERSION:1.0 Beta;
